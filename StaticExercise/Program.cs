@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            TempConverter.FahrenheitToCelsius(55);
+            Console.WriteLine();
+            TempConverter.CelsiusToFahrenheit(18);
+            
         }
+
+        
     }
 }
